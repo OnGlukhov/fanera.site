@@ -19,21 +19,23 @@ export default function Size({ filterProducts, products, indexItem, state }) {
         Все
       </li>
       {category.map((item, index) => (
-        <div key={index} className={styles.catalog_wrapper}>
-          <li
-            onClick={() => {
-              filterProducts(item.value);
-              indexItem(index);
-            }}
-            className={
-              index === state
-                ? `${styles.active} ${styles.catalog_list_item}`
-                : styles.catalog_list_item
-            }
-          >
-            <a>{`${item.value} ${item.key}`}</a>
-          </li>
-        </div>
+        <li key={index}>{item.name}</li>
+        // {item.map((i, index) => ())}
+        // <div key={index} className={styles.catalog_wrapper}>
+        //   <li
+        //     onClick={() => {
+        //       filterProducts(item.value);
+        //       indexItem(index);
+        //     }}
+        //     className={
+        //       index === state
+        //         ? `${styles.active} ${styles.catalog_list_item}`
+        //         : styles.catalog_list_item
+        //     }
+        //   >
+        //     <a>{`${item.value} ${item.key}`}</a>
+        //   </li>
+        // </div>
       ))}
     </ul>
   );
