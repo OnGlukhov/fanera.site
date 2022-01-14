@@ -1,0 +1,50 @@
+.catalog
+  &_list
+    display: flex
+    justify-content: space-between
+    list-style: none
+    color: #74757f
+    margin: 0 auto
+    max-width: 660px
+    padding: 0
+    @media(max-width: 1000px)
+      max-width: 500px
+    & a
+      font-size: 20px
+      @media(max-width: 1000px)
+        font-size: 16px
+      &:after
+        content: ''
+        position: absolute
+        right: 0
+        bottom: 0
+        width: 0
+        height: 1px
+        transition: .4s
+        background: #ff0000
+
+      
+    &_item
+      // margin-left: 48px
+      font-size: 20px
+      letter-spacing: .03em
+      font-weight: 300
+      padding-bottom: 15px
+      line-height: 1.5
+      @media(max-width: 1000px)
+        font-size: 16px
+      &:after
+        color: red
+        right: auto
+        left: 0
+        width: 100%
+        background: #ff0000
+      &:hover
+        cursor: pointer
+        color: #1F1926
+      &:active
+        color:#ff0000
+.active
+  color: red
+  font-weight: 700
+  border-bottom: 2px solid red
