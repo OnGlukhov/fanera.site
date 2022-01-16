@@ -3,33 +3,43 @@ import React, { useState } from 'react';
 import { category } from '../../data/category'
 
 
-export default function Dropdown({filterProducts, products, indexItem, state}){
+export default function Dropdown({ filterProducts, products, indexItem, button, setButtonList, buttonList }) {
 
 	const [isActive, setIsActive] = useState(false)
+	// console.log(state)
+	function resetButtonList(index) {
+		if (button !== index) setButtonList('')
+		else return
+	}
 	return (
 		<div className={styles.dropdown}>
-			<button onClick={() => setIsActive(!isActive)} className={styles.dropdown_button}>
-				ВЫБРАТЬ
-				<img className={isActive && styles.dropdown_img} src={'/images/arrow.svg'}></img>
-			</button>
-			<ul className={isActive? styles.dropdown_menu : styles.off}>
-				<li 
-					onClick={() => { filterProducts(false) 
-						indexItem(null)
-					}} 
-				className={null === state? `${styles.dropdown_item} ${styles.active}` : `${styles.dropdown_item}`}>Все</li>
-				{category.map((product, index) => (
-					<li 
-						onClick={() => {
-							filterProducts(product.value)
-							indexItem(index)
-							setIsActive(!isActive)
-						}}
-						className={index === state? `${styles.dropdown_item} ${styles.active}` : `${styles.dropdown_item}`}
-						key={index}><a >{`${product.value} ${product.key}`}</a></li>
-				))}
-			</ul>
-			{isActive? <div onClick={() => setIsActive(!isActive)} className={styles.overlay}></div> : ''}
+			{category.map((i, index) => (
+				<div className={styles.dropdown_wrapper}>
+					<button key={index} onClick={() => {
+						setIsActive(!isActive)
+						indexItem(index)
+						resetButtonList(index)
+
+					}} className={styles.dropdown_button}>
+						{i.name}
+						<img className={index === button && isActive ? styles.dropdown_img : ''} src={'/images/arrow.svg'}></img>
+					</button>
+					<ul className={index === button && isActive ? styles.dropdown_menu : styles.off}>
+						{i.subcategory.map((product, index) => (
+							<li key={index}
+								onClick={() => {
+									filterProducts(product)
+									setButtonList(index)
+									setIsActive(!isActive)
+								}}
+								className={index === buttonList ? `${styles.dropdown_item} ${styles.active}` : `${styles.dropdown_item}`}
+								key={index}><a>{product}</a></li>
+						))}
+					</ul>
+				</div>
+
+			))}
+			{isActive ? <div onClick={() => setIsActive(!isActive)} className={styles.overlay}></div> : ''}
 
 		</div>
 	)

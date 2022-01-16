@@ -1,161 +1,389 @@
 export const products = [
+	// ФК Sort 2/4
 	{
 		id: 1,
-		img: '/images/catalog.jpg',
+
+		subcategory: 'Сорт 2/4',
+		img: '/images/plywood_vologda_3.jpg',
 		price: {
-			key: 'руб/лист',
-			value: '781',
+			key: 'руб/шт',
+			value: '900',
 		},
-		options: {
-			key: 'мм',
-			value: 8,
-		},
-		title: 'ЦСП 2700х1250х8',
+		title: 'Фанера березовая ФК 2/4 Ш2 (1525х1525х4мм)',
 	},
 	{
 		id: 2,
-		img: '/images/catalog.jpg',
+
+		subcategory: 'Сорт 2/4',
+		img: '/images/plywood_vologda_3.jpg',
 		price: {
-			key: 'руб/лист',
-			value: '928',
+			key: 'руб/шт',
+			value: '1200',
 		},
-		options: {
-			key: 'мм',
-			value: 10,
-		},
-		title: 'ЦСП 2700х1250х10',
+		title: 'Фанера березовая ФК 2/4 Ш2 (1525х1525х6мм)',
 	},
 	{
 		id: 3,
-		img: '/images/catalog.jpg',
+
+		subcategory: 'Сорт 2/4',
+		img: '/images/plywood_vologda_3.jpg',
 		price: {
-			key: 'руб/лист',
-			value: '1 044',
+			key: 'руб/шт',
+			value: '1550',
 		},
-		options: {
-			key: 'мм',
-			value: 12,
-		},
-		title: 'ЦСП 2700х1250х12',
+		title: 'Фанера березовая ФК 2/4 Ш2 (1525х1525х8мм)',
 	},
-
-
 	{
 		id: 4,
-		img: '/images/catalog.jpg',
+
+		subcategory: 'Сорт 2/4',
+		img: '/images/plywood_vologda_3.jpg',
 		price: {
-			key: 'руб/лист',
-			value: '1 230',
+			key: 'руб/шт',
+			value: '1650',
 		},
-		options: {
-			key: 'мм',
-			value: 16,
-		},
-		title: 'ЦСП 2700х1250х16',
+		title: 'Фанера березовая ФК 2/4 Ш2 (1525х1525х9мм)',
 	},
 	{
 		id: 5,
-		img: '/images/catalog.jpg',
+
+		subcategory: 'Сорт 2/4',
+		img: '/images/plywood_vologda_3.jpg',
 		price: {
-			key: 'руб/лист',
-			value: '1 487',
+			key: 'руб/шт',
+			value: '2100',
 		},
-		options: {
-			key: 'мм',
-			value: 20,
-		},
-		title: 'ЦСП 2700х1250х20',
+		title: 'Фанера березовая ФК 2/4 Ш2 (1525х1525х12мм)',
 	},
 	{
 		id: 6,
-		img: '/images/catalog.jpg',
+
+		subcategory: 'Сорт 2/4',
+		img: '/images/plywood_vologda_3.jpg',
 		price: {
-			key: 'руб/лист',
-			value: '1 720',
+			key: 'руб/шт',
+			value: '2550',
 		},
-		options: {
-			key: 'мм',
-			value: 24,
-		},
-		title: 'ЦСП 2700х1250х24',
+		title: 'Фанера березовая ФК 2/4 Ш2 (1525х1525х15мм)',
 	},
-	
 	{
 		id: 7,
-		img: '/images/catalog.jpg',
+
+		subcategory: 'Сорт 2/4',
+		img: '/images/plywood_vologda_3.jpg',
 		price: {
-			key: 'руб/лист',
-			value: '795',
+			key: 'руб/шт',
+			value: '3000',
 		},
-		options: {
-			key: 'мм',
-			value: 8,
-		},
-		title: 'ЦСП 3200х1250х8',
+		title: 'Фанера березовая ФК 2/4 Ш2 (1525х1525х18мм)',
 	},
 	{
 		id: 8,
-		img: '/images/catalog.jpg',
+
+		subcategory: 'Сорт 2/4',
+		img: '/images/plywood_vologda_3.jpg',
 		price: {
-			key: 'руб/лист',
-			value: '943',
+			key: 'руб/шт',
+			value: '3300',
 		},
-		options: {
-			key: 'мм',
-			value: 10,
-		},
-		title: 'ЦСП 3200х1250х10',
+		title: 'Фанера березовая ФК 2/4 Ш2 (1525х1525х20мм)',
 	},
+
+	// ФК Sort 3/4
+
 	{
 		id: 9,
-		img: '/images/catalog.jpg',
+
+		subcategory: 'Сорт 3/4',
+		img: '/images/plywood_vologda_2.jpg',
 		price: {
-			key: 'руб/лист',
-			value: '1 068',
+			key: 'руб/шт',
+			value: '560',
 		},
-		options: {
-			key: 'мм',
-			value: 12,
-		},
-		title: 'ЦСП 3200х1250х12',
+		title: 'Фанера березовая ФК 3/4 Ш2 (1525х1525х4мм)',
 	},
 	{
 		id: 10,
-		img: '/images/catalog.jpg',
+
+		subcategory: 'Сорт 3/4',
+		img: '/images/plywood_vologda_2.jpg',
 		price: {
-			key: 'руб/лист',
-			value: '1 333',
+			key: 'руб/шт',
+			value: '800',
 		},
-		options: {
-			key: 'мм',
-			value: 16,
-		},
-		title: 'ЦСП 3200х1250х16',
+		title: 'Фанера березовая ФК 3/4 Ш2 (1525х1525х6мм)',
 	},
 	{
 		id: 11,
-		img: '/images/catalog.jpg',
+
+		subcategory: 'Сорт 3/4',
+		img: '/images/plywood_vologda_2.jpg',
 		price: {
-			key: 'руб/лист',
-			value: '1 629',
+			key: 'руб/шт',
+			value: '950',
 		},
-		options: {
-			key: 'мм',
-			value: 20,
-		},
-		title: 'ЦСП 3200х1250х20',
+		title: 'Фанера березовая ФК 3/4 Ш2 (1525х1525х8мм)',
 	},
 	{
 		id: 12,
-		img: '/images/catalog.jpg',
+
+		subcategory: 'Сорт 3/4',
+		img: '/images/plywood_vologda_2.jpg',
 		price: {
-			key: 'руб/лист',
-			value: '1 903',
+			key: 'руб/шт',
+			value: '1080',
 		},
-		options: {
-			key: 'мм',
-			value: 24,
-		},
-		title: 'ЦСП 3200х1250х24',
+		title: 'Фанера березовая ФК 3/4 Ш2 (1525х1525х9мм)',
 	},
+	{
+		id: 13,
+
+		subcategory: 'Сорт 3/4',
+		img: '/images/plywood_vologda_2.jpg',
+		price: {
+			key: 'руб/шт',
+			value: '1320',
+		},
+		title: 'Фанера березовая ФК 3/4 Ш2 (1525х1525х12мм)',
+	},
+	{
+		id: 14,
+
+		subcategory: 'Сорт 3/4',
+		img: '/images/plywood_vologda_2.jpg',
+		price: {
+			key: 'руб/шт',
+			value: '1640',
+		},
+		title: 'Фанера березовая ФК 3/4 Ш2 (1525х1525х15мм)',
+	},
+	{
+		id: 15,
+
+		subcategory: 'Сорт 3/4',
+		img: '/images/plywood_vologda_2.jpg',
+		price: {
+			key: 'руб/шт',
+			value: '1960',
+		},
+		title: 'Фанера березовая ФК 3/4 Ш2 (1525х1525х18мм)',
+	},
+	{
+		id: 16,
+
+		subcategory: 'Сорт 3/4',
+		img: '/images/plywood_vologda_2.jpg',
+		price: {
+			key: 'руб/шт',
+			value: '2240',
+		},
+		title: 'Фанера березовая ФК 3/4 Ш2 (1525х1525х20мм)',
+	},
+
+	// ФК Sort 4/4
+
+	{
+		id: 17,
+
+		subcategory: 'Сорт 4/4',
+		img: '/images/plywood_vologda_1.jpg',
+		price: {
+			key: 'руб/шт',
+			value: '420',
+		},
+		title: 'Фанера березовая ФК 4/4 НШ (1525х1525х4мм)',
+	},
+	{
+		id: 18,
+
+		subcategory: 'Сорт 4/4',
+		img: '/images/plywood_vologda_1.jpg',
+		price: {
+			key: 'руб/шт',
+			value: '640',
+		},
+		title: 'Фанера березовая ФК 4/4 НШ (1525х1525х6мм)',
+	},
+	{
+		id: 19,
+
+		subcategory: 'Сорт 4/4',
+		img: '/images/plywood_vologda_1.jpg',
+		price: {
+			key: 'руб/шт',
+			value: '720',
+		},
+		title: 'Фанера березовая ФК 4/4 НШ (1525х1525х8мм)',
+	},
+	{
+		id: 20,
+
+		subcategory: 'Сорт 4/4',
+		img: '/images/plywood_vologda_1.jpg',
+		price: {
+			key: 'руб/шт',
+			value: '760',
+		},
+		title: 'Фанера березовая ФК 4/4 НШ (1525х1525х9мм)',
+	},
+	{
+		id: 21,
+
+		subcategory: 'Сорт 4/4',
+		img: '/images/plywood_vologda_1.jpg',
+		price: {
+			key: 'руб/шт',
+			value: '850',
+		},
+		title: 'Фанера березовая ФК 4/4 НШ (1525х1525х10мм)',
+	},
+	{
+		id: 22,
+
+		subcategory: 'Сорт 4/4',
+		img: '/images/plywood_vologda_1.jpg',
+		price: {
+			key: 'руб/шт',
+			value: '940',
+		},
+		title: 'Фанера березовая ФК 4/4 НШ (1525х1525х12мм)',
+	},
+	{
+		id: 23,
+
+		subcategory: 'Сорт 4/4',
+		img: '/images/plywood_vologda_1.jpg',
+		price: {
+			key: 'руб/шт',
+			value: '1180',
+		},
+		title: 'Фанера березовая ФК 4/4 НШ (1525х1525х15мм)',
+	},
+	{
+		id: 24,
+
+		subcategory: 'Сорт 4/4',
+		img: '/images/plywood_vologda_1.jpg',
+		price: {
+			key: 'руб/шт',
+			value: '1390',
+		},
+		title: 'Фанера березовая ФК 4/4 НШ (1525х1525х18мм)',
+	},
+	{
+		id: 25,
+
+		subcategory: 'Сорт 4/4',
+		img: '/images/plywood_vologda_1.jpg',
+		price: {
+			key: 'руб/шт',
+			value: '1550',
+		},
+		title: 'Фанера березовая ФК 4/4 НШ (1525х1525х20мм)',
+	},
+
+	// ФСП 3/3
+	{
+		id: 26,
+
+		subcategory: 'Сорт 3/3',
+		img: '/images/plywood-ilim-timber-1.jpg',
+		price: {
+			key: 'руб/шт',
+			value: '1450',
+		},
+		title: 'Фанера хвойная ФСФ 3/3 НШ (2440х1220х6мм)',
+	},
+	{
+		id: 27,
+
+		subcategory: 'Сорт 3/3',
+		img: '/images/plywood-ilim-timber-1.jpg',
+		price: {
+			key: 'руб/шт',
+			value: '1900',
+		},
+		title: 'Фанера хвойная ФСФ 3/3 НШ (2440х1220х9мм)',
+	},
+	{
+		id: 28,
+
+		subcategory: 'Сорт 3/3',
+		img: '/images/plywood-ilim-timber-1.jpg',
+		price: {
+			key: 'руб/шт',
+			value: '2100',
+		},
+		title: 'Фанера хвойная ФСФ 3/3 НШ (2440х1220х12мм)',
+	},
+	{
+		id: 29,
+
+		subcategory: 'Сорт 3/3',
+		img: '/images/plywood-ilim-timber-1.jpg',
+		price: {
+			key: 'руб/шт',
+			value: '2400',
+		},
+		title: 'Фанера хвойная ФСФ 3/3 НШ (2440х1220х15мм)',
+	},
+	{
+		id: 30,
+
+		subcategory: 'Сорт 3/3',
+		img: '/images/plywood-ilim-timber-1.jpg',
+		price: {
+			key: 'руб/шт',
+			value: '3300',
+		},
+		title: 'Фанера хвойная ФСФ 3/3 НШ (2440х1220х18мм)',
+	},
+	{
+		id: 26,
+
+		subcategory: 'Сорт 3/3',
+		img: '/images/plywood-ilim-timber-1.jpg',
+		price: {
+			key: 'руб/шт',
+			value: '3800',
+		},
+		title: 'Фанера хвойная ФСФ 3/3 НШ (2440х1220х21мм)',
+	},
+
+	// ЛФСФ китай
+	{
+		id: 27,
+
+		subcategory: 'Китай',
+		img: '/images/plywood-m-wood-1.jpg',
+		price: {
+			key: 'руб/шт',
+			value: '3925',
+		},
+		title: 'Ламинированная фанера, китай (2440х1220х18мм)',
+	},
+	// ЛФСФ Россия
+	{
+		id: 28,
+
+		subcategory: 'Россия',
+		img: '/images/plywood-ilim-timber-1.jpg',
+		price: {
+			key: 'руб/шт',
+			value: '5320',
+		},
+		title: 'Ламинированная фанера (ЛФ) 1/1 (2440х1220х18мм)',
+	},
+	{
+		id: 29,
+
+		subcategory: 'Россия',
+		img: '/images/plywood-ilim-timber-1.jpg',
+		price: {
+			key: 'руб/шт',
+			value: '6376',
+		},
+		title: 'Ламинированная фанера (ЛФ) 1/1 (2440х1220х21мм)',
+	},
+
 ]
