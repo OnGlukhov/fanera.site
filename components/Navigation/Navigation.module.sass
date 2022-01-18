@@ -1,4 +1,4 @@
-.nav 
+.nav
 	display: flex
 	&_link
 		text-decoration: none
@@ -6,10 +6,14 @@
 		margin-left: 45px
 		letter-spacing: .08em
 		font-size: 15px
+		@media(max-width: 1100px)
+			margin-left: 35px
 		&:hover
 			color: #ff0000
 			transition: .25s
 	&_tel
 		margin-left: 100px
+		@media(max-width: 1100px)
+			margin-left: 50px
 .active
 	color: #ff0000

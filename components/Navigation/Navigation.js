@@ -1,6 +1,6 @@
 import styles from './Navigation.module.sass'
 import { Link } from 'react-scroll'
-import {contacts} from '../../data/contacts'
+import { contacts } from '../../data/contacts'
 export default function Navigation() {
 	return (
 		<nav className={styles.nav}>
@@ -28,7 +28,7 @@ export default function Navigation() {
 				ignoreCancelEvents={false}
 				spyThrottle={300}
 			>
-				ЦЕНА
+				ЦЕНЫ
 			</Link>
 			<Link activeClass={styles.active}
 				className={styles.nav_link}
