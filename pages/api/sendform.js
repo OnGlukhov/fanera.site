@@ -11,7 +11,7 @@ export default function (req, res) {
     secure: true,
     tls: {
       rejectUnauthorized: false
-  }
+    }
   });
   const mailData = {
     from: `${process.env.EMAIL_SENDER}`,

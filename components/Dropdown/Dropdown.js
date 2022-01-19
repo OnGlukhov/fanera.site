@@ -14,8 +14,8 @@ export default function Dropdown({ filterProducts, products, indexItem, button, 
 	return (
 		<div className={styles.dropdown}>
 			{category.map((i, index) => (
-				<div className={styles.dropdown_wrapper}>
-					<button key={index} onClick={() => {
+				<div key={index} className={styles.dropdown_wrapper}>
+					<button onClick={() => {
 						setIsActive(!isActive)
 						indexItem(index)
 						resetButtonList(index)
@@ -33,7 +33,7 @@ export default function Dropdown({ filterProducts, products, indexItem, button, 
 									setIsActive(!isActive)
 								}}
 								className={index === buttonList ? `${styles.dropdown_item} ${styles.active}` : `${styles.dropdown_item}`}
-								key={index}><a>{product}</a></li>
+							><a>{product}</a></li>
 						))}
 					</ul>
 				</div>

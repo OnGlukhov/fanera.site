@@ -22,7 +22,17 @@ export default function Burger() {
           <li onClick={() => setIsActive(!isActive)} className={styles.burger_list_item}><a href='#contacts'>КОНТАКТЫ</a></li>
         </ul>
         <ul className={`${styles.burger_list} ${styles.margin}`}>
-          <a onClick={() => setIsActive(!isActive)} className={styles.burger_list_tel} href={`tel:${contacts.phone}`}>{contacts.phone}</a>
+          <div style={{ display: 'flex', alignItems: 'center' }}>
+            <a onClick={() => setIsActive(!isActive)} className={styles.burger_list_tel} href={`tel:${contacts.phone}`}>{contacts.phone}</a>
+
+            {/* <a
+              href={`https://api.whatsapp.com/send?phone=${contacts.whatsapp}`}
+            >
+              <img className={styles.whatsapp} src={'/images/social/whatsapp-svgrepo-com.svg'}></img>
+            </a> */}
+
+          </div>
+
           <p className={styles.burger_list_address}>{contacts.address}</p>
           <img className={styles.burger_list_logo} src='/images/logo-big.png' />
         </ul>
