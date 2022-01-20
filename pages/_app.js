@@ -10,15 +10,17 @@ function MyApp({ Component, pageProps }) {
 		setTimeout(() => {
 			setLoading(false)
 		}, 1000);
-  }, []);
+	}, []);
 
 	return (
 		<>
-		{
-			// Если загружается то показываем прелоадер
-			loading && <Preloader />
-		}
-		<Component {...pageProps} />
+			{
+				// Если загружается то показываем прелоадер
+				loading && <Preloader />
+			}
+			{!loading && (
+				<Component {...pageProps} />
+			)}
 		</>
 
 	)

@@ -3,7 +3,7 @@ import Navigation from '../Navigation/Navigation'
 import Burger from '../Burger/Burger'
 
 export default function Header({width}) {
-	console.log(width)
+
 	return (
 		<header className={styles.header}>
 			<div className={styles.header_wrapper}>

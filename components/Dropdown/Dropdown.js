@@ -6,7 +6,7 @@ import { category } from '../../data/category'
 export default function Dropdown({ filterProducts, products, indexItem, button, setButtonList, buttonList }) {
 
 	const [isActive, setIsActive] = useState(false)
-	// console.log(state)
+
 	function resetButtonList(index) {
 		if (button !== index) setButtonList('')
 		else return
